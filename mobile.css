@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+html,body {
+        font-family: 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-align: center;
+	border: 0px;
+	height: 100%;
+}
+
+img {
+	border: 0px;
+}
+
+.shadow {
+	/* 		box-shadow: 0 0 10px #e80d0d; */
+	
+}
+
+a:link,a:visited,a:hover,a:active {
+	color: #666666;
+	text-align: center;
+	text-decoration: none;
+}
+
+.head {
+	clear: both;
+}
+
+.content {
+	clear: both;
+	height: 100%;
+}
+
+table {
+	/* 	text-align: center; */
+	border-collapse: collapse;
+	width: 100%;
+	height: 100%;
+}
+
+th {
+	/* 	color: #666666; */
+	text-align: center;
+	border: solid 1px #EAEAEA;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	width: 50%;
+	font-size: large;
+	/* 	padding-left: 5%; */
+}
+
+tr {
+	border: 0px;
+	text-align: center;
+	width: 100%;
+}
+
+td {
+	/* 	color: #666666; */
+	text-align: center;
+	border-collapse: collapse;
+	border: solid 1px #EAEAEA;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	width: 50%;
+	font-size: larger;
+	/* 	padding-right: 5%; */
+}
+
+form {
+	text-align: center;
+	/* 	float: left; */
+}
+
+.grad {
+	color: #292626;
+	/* 	float: right; */
+	font-weight: bold;
+	font-size: xx-large;
+	text-transform: lowercase;
+}
+
+select {
+	border: solid 1px #292525;
+/*
+	font-family: "Armata";
+*/
+        font-family: "PT Sans", Ubuntu, "Lucida Grande", Arial, "Liberation Sans", sans-serif;
+
+}
+
+span {
+	text-align: center;
+}
+
+span.c1 {
+	color: #413286;
+	font-size: x-small;
+}
+
+span.c2 {
+	color: #666666;
+	font-size: x-small;
+}
+
+.copyleft {
+	clear: both;
+	text-align: center;
+	margin-top: 1%;
+        text-transform: lowercase;
+}
