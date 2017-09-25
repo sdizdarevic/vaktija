@@ -36,7 +36,7 @@
 //mysql_connect("localhost", "root", "root");
  
 
-if (!$db=@mysql_connect("127.6.157.2:3306", "admin9anTvWL", "NNWMgU9D6gL3"))
+if (!$db=@mysql_connect("localhost:3306", "uname", "pass")) // dodati username i password
 {
 die ("<b>Spajanje na mysql server je neuspješno</b>");
 
